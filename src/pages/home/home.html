@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Welcome to Dana's first ionic App
+
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  This is a work in progress!
+  <p>
+    See more of Dana's work on  <a href="https://github.com/danacarlin7">Github</a>.
+  </p>
+  <button ion-button (click)="navigate()">Go To next page</button>
+
+
+  <ion-card>
+
+    <ion-card-header>
+      My Pups
+    </ion-card-header>
+    <ion-item>
+      <ion-toggle checked="false"></ion-toggle>
+      <ion-label>
+        Dog owner?
+      </ion-label>
+      <ion-icon name="thumbs-up" item-start></ion-icon>
+    </ion-item>
+  </ion-card>
+  <ion-content class="card-background-page">
+
+    <ion-card>
+      <img src="assets/imgs/Chloe.jpg"/>
+      <div class="card-title">Chloe</div>
+      <div class="card-subtitle">Black Lab</div>
+    </ion-card>
+
+    <ion-card>
+      <img src="assets/imgs/Stewie.png"/>
+      <div class="card-title">Stewie</div>
+      <div class="card-subtitle">Chihuahua</div>
+    </ion-card>
+
+
+
+  </ion-content>
+
+</ion-content>
+
